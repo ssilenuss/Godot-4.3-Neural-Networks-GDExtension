@@ -19,8 +19,8 @@ void Network::_bind_methods()
     ClassDB::bind_method(D_METHOD("print"), &Network::print);
     ClassDB::bind_method(D_METHOD("scan", "s"), &Network::scan);
 
-    ClassDB::bind_method(D_METHOD("save", "path"), &Network::save);
-    ClassDB::bind_method(D_METHOD("load", "path"), &Network::load);
+   // ClassDB::bind_method(D_METHOD("save", "path"), &Network::save);
+    //ClassDB::bind_method(D_METHOD("load", "path"), &Network::load);
 
     ClassDB::bind_method(D_METHOD("feedforward", "input"), &Network::feedforward);
 }
@@ -119,7 +119,7 @@ void Network::scan(String s)
         PRINT_ERR("Network should be empty to scan new network")
     }
 }
-
+/*
 void Network::save(String path)
 {
     godot::File *f = memnew(godot::File);
@@ -136,6 +136,7 @@ void Network::load(String path)
     f->close();
     memdelete(f);
 }
+*/
 
 Array Network::feedforward(Array input)
 {

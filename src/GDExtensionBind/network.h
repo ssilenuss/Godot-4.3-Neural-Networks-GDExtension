@@ -6,7 +6,7 @@
 #include <godot_cpp/core/class_db.hpp>
 
 #include <sstream>
-#include <godot_cpp/classes/file.hpp>
+//#include <godot_cpp/classes/file.hpp>
 #include "GDExtensionBind/function.h"
 
 #include "GDExtensionBind/layer.h"
@@ -47,8 +47,8 @@ public:
     String print();
     virtual void scan(String);
  
-    void save(String);
-    void load(String);
+    //void save(String);
+    //void load(String);
 
     Array feedforward(Array);
 };

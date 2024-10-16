@@ -1,8 +1,10 @@
-# Godot 4.0 Neural Networks GDExtension library
+# Godot 4.3 Neural Networks GDExtension library
 
 Orginal [Author](https://github.com/mohsenph69)'s video about using this library (should still be pretty much the same)
 **Video Tutorial**<br>
 [https://www.youtube.com/playlist?list=PLhixpuPeRv9ZUP2EbfHot8eHRhUIaneMg](https://www.youtube.com/playlist?list=PLhixpuPeRv9ZUP2EbfHot8eHRhUIaneMg)
+
+First adapted by [SueHeir to Godot 4.0](c:\Users\JLS\Desktop\Github\nn_dyptich\.gitignore):
 
 Simply create a Neural Networks for your game in Godot which is able to learn how to play. This Neural Networks library uses two methods for learning one of the is **backpropagation** and the other is **Genetic algorithm**, in-game because we don't have training data we usually use Genetic algorithm to teach the Neural Network.
 
@@ -10,19 +12,6 @@ Simply create a Neural Networks for your game in Godot which is able to learn ho
 
 ---
 ## How to Build
-
-Building GDExtnsions is not properly documented by godot at this time, but this page as is somewhat useful [page](https://godotengine.org/article/introducing-gd-extensions)
-
-Build most resent version of godot
-
-./godot.linuxbsd.tools.64 --dump-extension-api extension_api.json
-
-copy gdnative_interface.h and extension_api.json from godot files into godot-cpp
-
-build godot-cpp
-
-copy godot-cpp folder into root directory of this project (or wherever your scons file says godot-cpp is)
-
 
 use scons to build the GDExtension library for godot
 ``` bash
