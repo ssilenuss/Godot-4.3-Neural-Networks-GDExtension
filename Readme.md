@@ -4,7 +4,7 @@ Orginal [Author](https://github.com/mohsenph69)'s video about using this library
 **Video Tutorial**<br>
 [https://www.youtube.com/playlist?list=PLhixpuPeRv9ZUP2EbfHot8eHRhUIaneMg](https://www.youtube.com/playlist?list=PLhixpuPeRv9ZUP2EbfHot8eHRhUIaneMg)
 
-First adapted by [SueHeir to Godot 4.0](c:\Users\JLS\Desktop\Github\nn_dyptich\.gitignore):
+First adapted by [SueHeir to Godot 4.0](https://github.com/SueHeir/Godot-4.0-Neural-Networks-GDExtension):
 
 Simply create a Neural Networks for your game in Godot which is able to learn how to play. This Neural Networks library uses two methods for learning one of the is **backpropagation** and the other is **Genetic algorithm**, in-game because we don't have training data we usually use Genetic algorithm to teach the Neural Network.
 
