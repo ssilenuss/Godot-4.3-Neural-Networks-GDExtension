@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmbqcfg3axyyw"
+path="res://.godot/imported/track-striped-wide-cap-front.obj-12cde61d9c16190f764c4308d22074cc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-striped-wide-cap-front.obj-12cde61d9c16190f764c4308d22074cc.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-striped-wide-cap-front.obj"
+dest_files=["res://.godot/imported/track-striped-wide-cap-front.obj-12cde61d9c16190f764c4308d22074cc.mesh", "res://.godot/imported/track-striped-wide-cap-front.obj-12cde61d9c16190f764c4308d22074cc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

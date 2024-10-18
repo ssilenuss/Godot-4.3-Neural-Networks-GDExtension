@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2ednfm2ltnts"
+path="res://.godot/imported/gate.obj-421e0a3430d36bd871e24b793df968d3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gate.obj-421e0a3430d36bd871e24b793df968d3.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/gate.obj"
+dest_files=["res://.godot/imported/gate.obj-421e0a3430d36bd871e24b793df968d3.mesh", "res://.godot/imported/gate.obj-421e0a3430d36bd871e24b793df968d3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

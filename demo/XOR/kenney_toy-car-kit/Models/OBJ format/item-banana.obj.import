@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7lm4o1j25tlw"
+path="res://.godot/imported/item-banana.obj-1b765d05a312d2c1eebd2c77956a220a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/item-banana.obj-1b765d05a312d2c1eebd2c77956a220a.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/item-banana.obj"
+dest_files=["res://.godot/imported/item-banana.obj-1b765d05a312d2c1eebd2c77956a220a.mesh", "res://.godot/imported/item-banana.obj-1b765d05a312d2c1eebd2c77956a220a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d28paov4ayqq5"
+path="res://.godot/imported/track-striped-wide-straight-bend.obj-f136f0c05947a71f83e596bd9b08cfe1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-striped-wide-straight-bend.obj-f136f0c05947a71f83e596bd9b08cfe1.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-striped-wide-straight-bend.obj"
+dest_files=["res://.godot/imported/track-striped-wide-straight-bend.obj-f136f0c05947a71f83e596bd9b08cfe1.mesh", "res://.godot/imported/track-striped-wide-straight-bend.obj-f136f0c05947a71f83e596bd9b08cfe1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

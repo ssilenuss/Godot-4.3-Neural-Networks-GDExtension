@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xjqo5eo8stki"
+path="res://.godot/imported/track-wide-straight-hill-beginning.obj-371390c2ac0efb7980c06f7107fa6243.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-wide-straight-hill-beginning.obj-371390c2ac0efb7980c06f7107fa6243.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-wide-straight-hill-beginning.obj"
+dest_files=["res://.godot/imported/track-wide-straight-hill-beginning.obj-371390c2ac0efb7980c06f7107fa6243.mesh", "res://.godot/imported/track-wide-straight-hill-beginning.obj-371390c2ac0efb7980c06f7107fa6243.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

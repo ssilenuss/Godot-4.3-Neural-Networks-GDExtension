@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=3 uid="uid://tgs4pmxsf8mm"]
+
+[ext_resource type="Script" path="res://ImageMirror/image_mirror.gd" id="1_ph13h"]
+[ext_resource type="Texture2D" uid="uid://dp7s3albbxhsv" path="res://XOR/kenney_toy-car-kit/Previews/track-wide-cap-front.png" id="3_n3v0g"]
+[ext_resource type="Texture2D" uid="uid://88t4v8stfl0v" path="res://XOR/kenney_toy-car-kit/Previews/supports-clamp.png" id="4_cyr5f"]
+[ext_resource type="Texture2D" uid="uid://cmdkdlu5m32or" path="res://XOR/kenney_toy-car-kit/Previews/item-box.png" id="5_nxkw5"]
+[ext_resource type="Texture2D" uid="uid://dm2qcvt81it3c" path="res://XOR/kenney_toy-car-kit/Previews/gate.png" id="6_pxu6n"]
+[ext_resource type="Texture2D" uid="uid://d2oi7hy1hcwj3" path="res://XOR/kenney_toy-car-kit/Previews/vehicle-vintage-racer.png" id="9_toiq2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4sm82"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_toiq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n3v0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_cyr5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nxkw5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pxu6n")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="ImageMirror" type="HBoxContainer" node_paths=PackedStringArray("pixel_grid", "training_texture")]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+script = ExtResource("1_ph13h")
+pixel_grid = NodePath("GuessGrid")
+training_texture = NodePath("AnimatedSprite2D")
+
+[node name="GuessGrid" type="GridContainer" parent="."]
+layout_mode = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
+sprite_frames = SubResource("SpriteFrames_4sm82")
+autoplay = "default"
+
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_frame_changed"]

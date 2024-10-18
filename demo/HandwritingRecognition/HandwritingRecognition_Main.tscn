@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://c67m02fswvfin"]
+
+[ext_resource type="Script" path="res://HandwritingRecognition/handwriting_recognition_main.gd" id="1_3q3b4"]
+[ext_resource type="Texture2D" uid="uid://mkhha6nx7i5a" path="res://FlappyBird/icon.png" id="2_bcu1i"]
+
+[node name="HandwritingRecognitionMain" type="Control" node_paths=PackedStringArray("input_texture")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3q3b4")
+input_texture = NodePath("TextureRect")
+training_path = "C:/Users/JLS/Desktop/Github/Handwritten-Number-Classifier/trainingSet"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_bcu1i")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dwidtodtv8yty"
+path="res://.godot/imported/track-striped-wide-straight-skew-right-side.obj-45c4c63febaa3ed79ef5d7c1ed0037a9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-striped-wide-straight-skew-right-side.obj-45c4c63febaa3ed79ef5d7c1ed0037a9.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-striped-wide-straight-skew-right-side.obj"
+dest_files=["res://.godot/imported/track-striped-wide-straight-skew-right-side.obj-45c4c63febaa3ed79ef5d7c1ed0037a9.mesh", "res://.godot/imported/track-striped-wide-straight-skew-right-side.obj-45c4c63febaa3ed79ef5d7c1ed0037a9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

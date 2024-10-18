@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://oll0fyw5fua7"
+path="res://.godot/imported/track-wide-corner-large.obj-85c2dffac00245a2df4d37164a4bcaaa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-wide-corner-large.obj-85c2dffac00245a2df4d37164a4bcaaa.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-wide-corner-large.obj"
+dest_files=["res://.godot/imported/track-wide-corner-large.obj-85c2dffac00245a2df4d37164a4bcaaa.mesh", "res://.godot/imported/track-wide-corner-large.obj-85c2dffac00245a2df4d37164a4bcaaa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

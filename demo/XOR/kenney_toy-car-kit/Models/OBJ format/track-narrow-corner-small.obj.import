@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5msdfp02igfs"
+path="res://.godot/imported/track-narrow-corner-small.obj-a5f06505cd10484f52da0d7f67fa9068.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-narrow-corner-small.obj-a5f06505cd10484f52da0d7f67fa9068.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-narrow-corner-small.obj"
+dest_files=["res://.godot/imported/track-narrow-corner-small.obj-a5f06505cd10484f52da0d7f67fa9068.mesh", "res://.godot/imported/track-narrow-corner-small.obj-a5f06505cd10484f52da0d7f67fa9068.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

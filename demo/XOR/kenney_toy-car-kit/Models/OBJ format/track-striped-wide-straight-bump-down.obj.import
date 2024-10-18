@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbuyx0htnjfmf"
+path="res://.godot/imported/track-striped-wide-straight-bump-down.obj-c969c98391a4b249f70b015667b16013.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-striped-wide-straight-bump-down.obj-c969c98391a4b249f70b015667b16013.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-striped-wide-straight-bump-down.obj"
+dest_files=["res://.godot/imported/track-striped-wide-straight-bump-down.obj-c969c98391a4b249f70b015667b16013.mesh", "res://.godot/imported/track-striped-wide-straight-bump-down.obj-c969c98391a4b249f70b015667b16013.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

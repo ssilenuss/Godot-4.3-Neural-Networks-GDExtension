@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cp3wpjrr8clu5"
+path="res://.godot/imported/vehicle-racer-low.obj-11b483fd401e01d74da9928565a782fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/vehicle-racer-low.obj-11b483fd401e01d74da9928565a782fe.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/vehicle-racer-low.obj"
+dest_files=["res://.godot/imported/vehicle-racer-low.obj-11b483fd401e01d74da9928565a782fe.mesh", "res://.godot/imported/vehicle-racer-low.obj-11b483fd401e01d74da9928565a782fe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

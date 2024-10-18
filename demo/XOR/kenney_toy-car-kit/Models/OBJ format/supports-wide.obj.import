@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cuqwwj1006ml0"
+path="res://.godot/imported/supports-wide.obj-efaa71422c48eb2ad85d6240e9f2cb6c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/supports-wide.obj-efaa71422c48eb2ad85d6240e9f2cb6c.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/supports-wide.obj"
+dest_files=["res://.godot/imported/supports-wide.obj-efaa71422c48eb2ad85d6240e9f2cb6c.mesh", "res://.godot/imported/supports-wide.obj-efaa71422c48eb2ad85d6240e9f2cb6c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

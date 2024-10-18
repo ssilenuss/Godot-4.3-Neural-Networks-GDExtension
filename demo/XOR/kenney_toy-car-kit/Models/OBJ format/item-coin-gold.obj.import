@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cjh1lena0k36s"
+path="res://.godot/imported/item-coin-gold.obj-e982abca98e4a5bb157b68113cda3f2c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/item-coin-gold.obj-e982abca98e4a5bb157b68113cda3f2c.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/item-coin-gold.obj"
+dest_files=["res://.godot/imported/item-coin-gold.obj-e982abca98e4a5bb157b68113cda3f2c.mesh", "res://.godot/imported/item-coin-gold.obj-e982abca98e4a5bb157b68113cda3f2c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

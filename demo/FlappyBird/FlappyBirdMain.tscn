@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dsci6q68h82lh"]
+
+[ext_resource type="Script" path="res://FlappyBird/main.gd" id="1_p0isk"]
+[ext_resource type="PackedScene" uid="uid://cidsrg3w4kypo" path="res://FlappyBird/spawn/spawn.tscn" id="2_i2oq6"]
+[ext_resource type="Script" path="res://FlappyBird/birds.gd" id="3_0kkfn"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_p0isk")
+
+[node name="spawn" parent="." instance=ExtResource("2_i2oq6")]
+
+[node name="birds" type="Node2D" parent="."]
+position = Vector2(150, 277.795)
+script = ExtResource("3_0kkfn")
+
+[node name="Label" type="Label" parent="birds"]
+offset_left = 764.0
+offset_top = -257.795
+offset_right = 854.0
+offset_bottom = -231.795
+theme_override_font_sizes/font_size = 16
+text = "Pop Size: 11"
+
+[connection signal="pass_tube" from="spawn" to="." method="_on_spawn_pass_tube"]

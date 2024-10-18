@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcqcrdf2vnp72"
+path="res://.godot/imported/track-striped-narrow-straight-skew-left.obj-4e169c6334ee3a0ace3536dbe4bf7c2f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-striped-narrow-straight-skew-left.obj-4e169c6334ee3a0ace3536dbe4bf7c2f.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-striped-narrow-straight-skew-left.obj"
+dest_files=["res://.godot/imported/track-striped-narrow-straight-skew-left.obj-4e169c6334ee3a0ace3536dbe4bf7c2f.mesh", "res://.godot/imported/track-striped-narrow-straight-skew-left.obj-4e169c6334ee3a0ace3536dbe4bf7c2f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2dqn0sxxlmwg"
+path="res://.godot/imported/track-narrow-straight-hill-complete.obj-dd7d75f04d3a87d0b17d4cd8bb6001cb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/track-narrow-straight-hill-complete.obj-dd7d75f04d3a87d0b17d4cd8bb6001cb.mesh"]
+
+source_file="res://XOR/kenney_toy-car-kit/Models/OBJ format/track-narrow-straight-hill-complete.obj"
+dest_files=["res://.godot/imported/track-narrow-straight-hill-complete.obj-dd7d75f04d3a87d0b17d4cd8bb6001cb.mesh", "res://.godot/imported/track-narrow-straight-hill-complete.obj-dd7d75f04d3a87d0b17d4cd8bb6001cb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
